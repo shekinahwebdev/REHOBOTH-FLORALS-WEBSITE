@@ -1,0 +1,27 @@
+@import "tailwindcss";
+
+@theme {
+  --light-cream: #fff8f3;
+  --cta-button-gradient: (#ff7e28, #e63900);
+  --hover-effect: #cc3000;
+  --dark-charcoal: #2c2c2c;
+  --highlight-words: #ff7e28;
+  --cta-button-softgreen: #4caf50;
+  --warm-gray: #666666;
+  --slight-background-tint: #fff1e8;
+  --light-gray: #f2f2f2;
+  --Beige: #ede3d9;
+  --Soft-black: #111111;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  place-items: center;
+  min-height: 100vh;
+}
