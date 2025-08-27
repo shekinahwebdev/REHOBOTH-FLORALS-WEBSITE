@@ -10,17 +10,17 @@ const Navbar = () => {
           </Link>
         </li>
         <li className="px-7 hover:text-hover-effect">
-          <Link to="/">
+          <Link to="/about">
             <span>About</span>
           </Link>
         </li>
         <li className="px-7  hover:text-hover-effect">
-          <Link to="/">
+          <Link to="/contact">
             <span>Contact</span>
           </Link>
         </li>
         <li className="px-7 hover:text-hover-effect">
-          <Link to="/">
+          <Link to="/shop">
             <span>Shop</span>
           </Link>
         </li>
