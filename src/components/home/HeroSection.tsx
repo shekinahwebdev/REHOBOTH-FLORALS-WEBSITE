@@ -7,11 +7,11 @@ import { useState } from "react";
 const HeroSection = () => {
   const [showNavbar, setShowNavbar] = useState(false);
   return (
-    <section className="flex flex-col w-full px-10 xl:px-30 py-5 bg-[url(/assets/Fresh-Flower/fresh-flower13.jpg)] bg-no-repeat bg-cover min-h-screen md:min-h-[100vh] bg-center mg:bg-size[100%]">
+    <section className="flex flex-col w-full px-10 xl:px-30 py-5 bg-[url(/assets/arrangements-in-vases-boxes/flower12.jpeg)] bg-no-repeat bg-cover min-h-screen md:min-h-[100vh] bg-center mg:bg-size[100%]">
       <header className="flex flex-row  items-center justify-between gap-10">
         <div className="logo-container">
           <h1 className="text-3xl italic md:text-4xl text-[#f83600] ">
-            Rohoboth Floral
+            Rehoboth Floral
           </h1>
         </div>
         <div className="flex flex-row justify-center gap-8 md:p-2 bg-white/20 backdrop-blur-md">
@@ -28,7 +28,7 @@ const HeroSection = () => {
       </header>
       <div className="space-y-6 text-center my-12 flex flex-col flex-1 justify-center items-center px-4  text-white">
         <p className="text-2xl md:text-3xl font-semibold tracking-wider text-white">
-          Rohoboth Florals Shop
+          Rehoboth Florals Shop
         </p>
         <h1 className="text-5xl md:text-6xl font-extrabold leading-tight drop-shadow-md">
           A Perfect Bouquet for Every Occasion
