@@ -19,7 +19,7 @@ const HeroSection = () => {
             <Navbar />
           </div>
           <button
-            className="border-none hover: bg-white/20 p-3 rounded-xl cursor-pointer"
+            className="border-none hover:bg-white/20 p-3 rounded-xl cursor-pointer"
             onClick={() => setShowNavbar((prev) => !prev)}
           >
             <img src={menu} alt="menu-icon" className="w-8" />
