@@ -4,14 +4,14 @@
   --color-light-cream: #fff8f3;
   --color-cta-button-gradient: (#ff7e28, #e63900);
   --color-hover-effect: #cc3000;
-  --dark-charcoal: #2c2c2c;
-  --highlight-words: #ff7e28;
-  --cta-button-softgreen: #4caf50;
-  --warm-gray: #666666;
-  --slight-background-tint: #fff1e8;
-  --color-light-gray: #f2f2f2;
-  --Beige: #ede3d9;
-  --Soft-black: #111111;
+  --color-dark-charcoal: #2c2c2c;
+  --color-highlight-words: #ff7e28;
+  --color-cta-button-softgreen: #4caf50;
+  --color-warm-gray: #666666;
+  --color-slight-background-tint: #fff1e8;
+  --color-color-light-gray: #f2f2f2;
+  --color-Beige: #ede3d9;
+  --color-Soft-black: #111111;
   --breakpoint-md: 65rem;
 }
 
