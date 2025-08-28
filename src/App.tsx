@@ -1,7 +1,12 @@
+import { Outlet } from "react-router-dom";
 import "./App.css";
 
 const App = () => {
-  return <div className="text-7xl">App</div>;
+  return (
+    <main className="main_page">
+      <Outlet />
+    </main>
+  );
 };
 
 export default App;
