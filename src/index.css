@@ -16,10 +16,6 @@
   --breakpoint-md: 65rem;
 }
 
-* {
-  box-sizing: border-box;
-}
-
 body {
   min-height: 100vh;
   font-size: 16px;
