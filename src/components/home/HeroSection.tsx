@@ -7,15 +7,14 @@ import { useState } from "react";
 const HeroSection = () => {
   const [showNavbar, setShowNavbar] = useState(false);
   return (
-    <section className="flex flex-col w-full px-10 xl:px-30 py-5 bg-[url(/assets/arrangements-in-vases-boxes/flower12.jpeg)] bg-no-repeat bg-cover min-h-screen md:min-h-[100vh] bg-center mg:bg-size[100%]">
+    <section className="flex flex-col w-full px-10 xl:px-30 py-5 bg-[url(/assets/arrangements-in-vases-boxes/flower12.jpeg)] bg-no-repeat bg-cover min-h-[100vh] bg-center mg:bg-size[100%]">
       <div className="hero-overlay"></div>
-      <header className="flex flex-row  items-center justify-between gap-10">
-        <div className="logo-container">
-          <h1 className="text-3xl italic md:text-4xl text-[#f83600] drop-shadow-md">
+      <header className="flex flex-row  items-center gap-10">
+        <div className="logo-container"></div>
+        <div className="flex flex-row justify-between fixed top-0 right-0 gap-8 px-3 pt-3 md:p-5 bg-white/5 backdrop-blur-md w-full z-999">
+          <h1 className="text-3xl italic md:text-4xl text-[#facc22] drop-shadow-md">
             Rehoboth Floral
           </h1>
-        </div>
-        <div className="flex flex-row justify-center gap-8 md:p-2 bg-white/20 backdrop-blur-md">
           <div className="hidden md:flex gap-8">
             <Navbar />
           </div>
@@ -29,13 +28,13 @@ const HeroSection = () => {
       </header>
 
       <div className="space-y-6 text-center my-12 flex flex-col flex-1 justify-center items-center px-4  text-white">
-        <p className="text-2xl md:text-3xl font-semibold tracking-wider text-white drop-shadow-md">
+        <p className="text-2xl md:text-4xl font-semibold tracking-wider text-white drop-shadow-md">
           Rehoboth Florals Shop
         </p>
-        <h1 className="text-5xl md:text-6xl font-extrabold leading-tight drop-shadow-md">
+        <h1 className="text-5xl md:text-7xl font-extrabold leading-tight drop-shadow-md">
           A Perfect Bouquet for Every Occasion
         </h1>
-        <p className="text-lg md:text-xl max-w-2xl font-medium leading-relaxed  text-white drop-shadow-md">
+        <p className="text-lg md:text-2xl max-w-2xl font-medium leading-relaxed  text-white drop-shadow-md">
           Discover the beauty of{" "}
           <span className="font-semibold">fresh flowers</span>, handcrafted with
           love to bring joy, celebrate milestones, and make every moment
