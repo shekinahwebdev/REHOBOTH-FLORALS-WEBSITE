@@ -11,9 +11,7 @@ const Product = () => {
           </p>
           <h2 className="text-3xl md:text-5xl font-bold text-dark-charcoal mb-4">
             You can buy{" "}
-            <span className="text-highlight italic text-[#E63900]">
-              your favourites
-            </span>
+            <span className="italic text-highlight-words">your favourites</span>
             , in one go.
           </h2>
         </div>
@@ -69,7 +67,7 @@ const Product = () => {
         <div className="text-center mt-15">
           <Link
             to="/shop"
-            className="bg-[#E63900] text-white px-8 py-5 rounded-xl hover:bg-dark-charcoal transition-colors font-semibold"
+            className="bg-highlight-words text-white px-8 py-5 rounded-xl hover:bg-dark-charcoal transition-colors font-semibold"
           >
             VIEW ALL PRODUCTS
           </Link>
