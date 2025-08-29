@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 
 const CallAction = () => {
   return (
-    <section className="section-padding flame-gradient text-white  bg-gradient-to-r from-[#f83600] to-[#facc22] py-15 px-5 md:py-28">
+    <section className="section-padding flame-gradient text-white  bg-gradient-to-r from-[#facc22] to-[#f83600]  py-15 px-5 md:py-28">
       <div className="max-w-4xl mx-auto text-center px-4 sm:px-6 lg:px-8">
         <h2 className="text-4xl md:text-6xl font-bold mb-6">
           Ready to Create Something Beautiful?
@@ -14,13 +14,13 @@ const CallAction = () => {
         <div className="flex flex-col sm:flex-row gap-4 justify-center">
           <Link
             to="/shop"
-            className="bg-white  text-[#E63900] px-8 py-4 rounded-xl font-semibold hover:bg-gray-100 transition-colors"
+            className="bg-white text-highlight-words px-8 py-4 rounded-xl font-semibold hover:bg-gray-100 transition-colors"
           >
             Browse Collections
           </Link>
           <Link
             to="/contact"
-            className="border-2 border-white text-white px-8 py-4 rounded-xl font-semibold hover:bg-white hover:text-[#E63900] transition-colors"
+            className="border-2 border-white text-white px-8 py-4 rounded-xl font-semibold hover:bg-white hover:text-highlight-words transition-colors"
           >
             Get Custom Quote
           </Link>
