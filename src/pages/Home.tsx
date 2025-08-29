@@ -1,7 +1,7 @@
+import CallAction from "../components/home/CallAction";
 import HeroSection from "../components/home/HeroSection";
 import IntroductionSection from "../components/home/IntroductionSection";
 import Product from "../components/home/Product";
-import Testimonial from "../components/home/Testimonial";
 
 const Home = () => {
   return (
@@ -9,7 +9,7 @@ const Home = () => {
       <HeroSection />
       <IntroductionSection />
       <Product />
-      <Testimonial />
+      <CallAction />
     </section>
   );
 };
