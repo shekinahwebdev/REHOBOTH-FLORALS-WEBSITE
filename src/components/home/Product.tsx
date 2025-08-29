@@ -42,19 +42,19 @@ const Product = () => {
                   <div className="gap-5 grid grid-cols-3 ">
                     <div className="flex flex-col">
                       <span className="text-xs text-gray-500">Small</span>
-                      <span className="text-lg font-bold text-emerald-600">
+                      <span className="text-lg font-bold text-highlight-words">
                         ₵{product.smallPrice.toFixed(2)}
                       </span>
                     </div>
                     <div className="flex flex-col">
                       <span className="text-sm text-gray-500">Medium</span>
-                      <span className="text-lg font-bold text-amber-600">
+                      <span className="text-lg font-bold text-highlight-words">
                         ₵{product.mediumPrice.toFixed(2)}
                       </span>
                     </div>
                     <div className="flex flex-col">
                       <span className="text-xs text-gray-500">Large</span>
-                      <span className="text-lg font-bold text-rose-600">
+                      <span className="text-lg font-bold text-highlight-words">
                         ₵{product.largePrice.toFixed(2)}
                       </span>
                     </div>
