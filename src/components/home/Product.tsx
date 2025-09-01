@@ -11,9 +11,7 @@ const Product = () => {
           </p>
           <h2 className="text-3xl md:text-5xl font-bold text-dark-charcoal mb-4">
             You can buy{" "}
-            <span className="text-highlight italic text-[#E63900]">
-              your favourites
-            </span>
+            <span className="italic text-highlight-words">your favourites</span>
             , in one go.
           </h2>
         </div>
@@ -44,19 +42,19 @@ const Product = () => {
                   <div className="gap-5 grid grid-cols-3 ">
                     <div className="flex flex-col">
                       <span className="text-xs text-gray-500">Small</span>
-                      <span className="text-lg font-bold text-emerald-600">
+                      <span className="text-lg font-bold text-highlight-words">
                         ₵{product.smallPrice.toFixed(2)}
                       </span>
                     </div>
                     <div className="flex flex-col">
                       <span className="text-sm text-gray-500">Medium</span>
-                      <span className="text-lg font-bold text-amber-600">
+                      <span className="text-lg font-bold text-highlight-words">
                         ₵{product.mediumPrice.toFixed(2)}
                       </span>
                     </div>
                     <div className="flex flex-col">
                       <span className="text-xs text-gray-500">Large</span>
-                      <span className="text-lg font-bold text-rose-600">
+                      <span className="text-lg font-bold text-highlight-words">
                         ₵{product.largePrice.toFixed(2)}
                       </span>
                     </div>
@@ -69,7 +67,7 @@ const Product = () => {
         <div className="text-center mt-15">
           <Link
             to="/shop"
-            className="bg-[#E63900] text-white px-8 py-5 rounded-xl hover:bg-dark-charcoal transition-colors font-semibold"
+            className="bg-highlight-words text-white px-8 py-5 rounded-xl hover:bg-dark-charcoal transition-colors font-semibold"
           >
             VIEW ALL PRODUCTS
           </Link>
