@@ -1,0 +1,38 @@
+export const featuredProducts = [
+  {
+    id: 1,
+    name: "Sympathy Flowers",
+    src: "/assets/bouquets/bouquet-flower18.jpeg",
+    smallPrice: 700,
+    mediumPrice: 1000,
+    largePrice: 1200,
+    category: "Sympathy Flowers",
+  },
+  {
+    id: 2,
+    name: "Love Flowers",
+    src: "/assets/arrangements-in-vases-boxes/flower19.jpeg",
+    smallPrice: 1000,
+    mediumPrice: 1500,
+    largePrice: 2000,
+    category: "Love",
+  },
+  {
+    id: 3,
+    name: "Everyday Floral Bouquet",
+    src: "/assets/arrangements-in-vases-boxes/flower18.jpeg",
+    smallPrice: 1000,
+    mediumPrice: 1500,
+    largePrice: 2000,
+    category: "Everyday Floral Bouquet",
+  },
+  {
+    id: 4,
+    name: "Promotion Bouquet",
+    src: "/assets/bouquets/bouquet-flower19.jpeg",
+    smallPrice: 500,
+    mediumPrice: 1000,
+    largePrice: 1500,
+    category: "Promotion Bouquet",
+  },
+];
