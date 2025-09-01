@@ -30,3 +30,12 @@ body {
   height: 100vh;
   background: rgba(0, 0, 0, 0.247);
 }
+
+.card-hover {
+  transition: all 0.3s ease;
+}
+
+.card-hover:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.1);
+}
