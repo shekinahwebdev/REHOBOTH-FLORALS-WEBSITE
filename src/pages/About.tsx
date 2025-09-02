@@ -10,16 +10,16 @@ const About = () => {
   ];
 
   return (
-    <div className="pt-16 bg-light-cream">
-      <section className="relative py-24 px-2 md:px-20 bg-white mt-5 overflow-hidden">
+    <div className="pt-16">
+      <section className="relative py-24 px-2 md:px-20 bg-[url(/assets/bouquets/bouquet-flower20.jpeg)] bg-no-repeat bg-cover bg-center mg:bg-size[100%] mt-5 overflow-hidden">
         <div className="px-4 sm:px-6 lg:px-8">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
             <div>
-              <h1 className="text-4xl md:text-6xl font-bold text-dark-charcoal mb-6 leading-tight">
+              <h1 className="text-4xl md:text-6xl font-bold text-white mb-6 leading-tight">
                 Crafting Beauty with{" "}
                 <span className="text-highlight-words">Nature's Art</span>
               </h1>
-              <p className="text-xl md:text-2xl text-warm-gray mb-8 leading-relaxed">
+              <p className="text-xl md:text-2xl text-white mb-8 leading-relaxed">
                 At Rehoboth Florals, we're a fresh and passionate floral brand,
                 dedicated to crafting arrangements that brighten moments and
                 create lasting memories. Though new, our mission is simple
@@ -31,9 +31,7 @@ const About = () => {
                     <div className="text-3xl font-bold md:text-4xl text-highlight-words mb-2">
                       {stat.number}
                     </div>
-                    <div className="text-warm-gray md:text-xl">
-                      {stat.label}
-                    </div>
+                    <div className="text-white md:text-xl">{stat.label}</div>
                   </div>
                 ))}
               </div>
