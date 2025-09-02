@@ -1,14 +1,9 @@
 import { Link } from "react-router-dom";
-import MobileNavbar from "./MobileNavbar";
-import { useState } from "react";
-import Header from "./Header";
 
 const HeroSection = () => {
-  const [showNavbar, setShowNavbar] = useState(false);
   return (
     <section className="flex flex-col w-full px-10 xl:px-30 py-5 bg-[url(/assets/arrangements-in-vases-boxes/flower12.jpeg)] bg-no-repeat bg-cover min-h-[100vh] bg-center mg:bg-size[100%]">
       <div className="hero-overlay"></div>
-      <Header setShowNavbar={setShowNavbar} />
       <div className="space-y-6 text-center my-12 flex flex-col flex-1 justify-center items-center px-4  text-white">
         <p className="text-2xl md:text-4xl font-semibold tracking-wider text-white drop-shadow-md">
           Rehoboth Florals Shop
@@ -26,7 +21,6 @@ const HeroSection = () => {
           <Link to="/shop">Shop Now</Link>
         </button>
       </div>
-      <MobileNavbar showNavbar={showNavbar} />
     </section>
   );
 };
