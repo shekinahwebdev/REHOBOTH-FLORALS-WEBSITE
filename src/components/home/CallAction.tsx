@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 
 const CallAction = () => {
   return (
-    <section className="section-padding flame-gradient text-white  bg-gradient-to-r from-[#facc22] to-[#f83600]  py-15 px-5 md:py-28">
+    <section className="text-white  bg-gradient-to-r from-[#facc22] to-[#f83600]  py-15 px-5 md:py-28">
       <div className="max-w-4xl mx-auto text-center px-4 sm:px-6 lg:px-8">
         <h2 className="text-4xl md:text-6xl font-bold mb-6">
           Ready to Create Something Beautiful?
