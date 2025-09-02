@@ -3,15 +3,18 @@ import { featuredProducts } from "../../data/featuredProducts";
 
 const Product = () => {
   return (
-    <section className="section-padding bg-light-gray py-20">
+    <section className="py-20 bg-[url(/assets/Fresh-Flower/fresh-flower14.jpg)] bg-no-repeat bg-cover bg-center mg:bg-size[100%] relative">
+      <div className="product-hero-overlay"></div>
       <div className="mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-12">
-          <p className="text-highlight text-xl font-semibold mb-4 tracking-wider uppercase">
+          <p className="text-white text-xl font-semibold mb-4 tracking-wider uppercase drop-shadow-md">
             OUR PRODUCTS
           </p>
-          <h2 className="text-3xl md:text-5xl font-bold text-dark-charcoal mb-4">
+          <h2 className="text-3xl md:text-5xl font-bold text-white mb-4 drop-shadow-md">
             You can buy{" "}
-            <span className="italic text-highlight-words">your favourites</span>
+            <span className="italic text-highlight-words drop-shadow-md">
+              your favourites
+            </span>
             , in one go.
           </h2>
         </div>
@@ -19,7 +22,7 @@ const Product = () => {
           {featuredProducts.map((product) => (
             <div
               key={product.id}
-              className="card-hover bg-white rounded-xl shadow-md overflow-hidden transition-transform transform hover:scale-105 hover:shadow-lg"
+              className="card-hover bg-white rounded-2xl shadow-md overflow-hidden transition-transform transform hover:scale-105 hover:shadow-lg cursor-pointer drop-shadow-md"
             >
               <div className="relative">
                 <img
@@ -67,7 +70,7 @@ const Product = () => {
         <div className="text-center mt-15">
           <Link
             to="/shop"
-            className="bg-highlight-words text-white px-8 py-5 rounded-xl hover:bg-dark-charcoal transition-colors font-semibold"
+            className="bg-highlight-words text-white px-8 py-5 rounded-xl hover:bg-dark-charcoal transition-colors font-semibold drop-shadow-md"
           >
             VIEW ALL PRODUCTS
           </Link>
