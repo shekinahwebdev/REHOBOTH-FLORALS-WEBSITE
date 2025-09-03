@@ -38,7 +38,7 @@ const Contact = () => {
       </section>
       <section className="py-16 md:py-20 bg-gradient-to-r from-[#facc22] to-[#f83600] ">
         <div className="max-w-4xl mx-auto text-center px-4 sm:px-6 lg:px-8">
-          <h2 className="text-2xl md:text-3xl font-bold text-dark-charcoal mb-4">
+          <h2 className="text-2xl md:text-3xl font-bold text-white mb-4">
             Need Last-Minute Arrangements?
           </h2>
           <p className="text-white mb-6 md:text-2xl">
@@ -47,7 +47,7 @@ const Contact = () => {
           </p>
           <a
             href="tel:+233559359481"
-            className="bg-cta-button-softgreen text-white px-8 py-4 md:py-6 rounded-full font-semibold inline-flex items-center space-x-2 hover:bg-[#45a049] hover:transform hover:translate-y-[-2px] hover:shadow-lg"
+            className="bg-cta-button-softgreen text-white px-8 py-4 md:py-6 rounded-xl font-semibold inline-flex items-center space-x-2 hover:bg-[#45a049] hover:transform hover:translate-y-[-2px] hover:shadow-lg"
           >
             <Phone className="h-5 w-5" />
             <span className="md:text-xl">Call Now: (55) 935-9481</span>
