@@ -22,58 +22,33 @@ body {
     "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
 }
 
-.hero-overlay {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100vh;
-  background: rgba(0, 0, 0, 0.247);
-}
-
-.product-hero-overlay {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 76.5vh;
-  background: rgba(0, 0, 0, 0.247);
-}
-
-.top-hero-overlay {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 65vh;
-  background: rgba(0, 0, 0, 0.247);
-}
-
-.middle-hero-overlay {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 170vh;
-  background: rgba(0, 0, 0, 0.247);
-}
-
-.form-overlay {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 170vh;
-  background: rgba(0, 0, 0, 0.247);
-}
-
+.hero-overlay,
+.product-hero-overlay,
+.top-hero-overlay,
+.middle-hero-overlay,
+.form-overlay,
 .contact-overlay {
   position: absolute;
   top: 0;
   left: 0;
   width: 100%;
-  height: 100vh;
   background: rgba(0, 0, 0, 0.247);
+}
+
+.hero-overlay,
+.contact-overlay {
+  height: 100vh;
+}
+.product-hero-overlay {
+  height: 76.5vh;
+}
+
+.top-hero-overlay {
+  height: 65vh;
+}
+.middle-hero-overlay,
+.form-overlay {
+  height: 170vh;
 }
 
 .card-hover {
