@@ -15,22 +15,22 @@ const MobileNavbar: React.FC<MobileNavbarProps> = ({ showNavbar }) => {
     >
       <nav>
         <ul className="list-none flex flex-col items-self justify-center gap-12 text-xl uppercase cursor-pointer">
-          <li className="px-7 hover:text-hover-effect">
+          <li className="px-7 hover:text-[#facc22]">
             <Link to="/">
               <span>Home</span>
             </Link>
           </li>
-          <li className="px-7 hover:text-hover-effect">
+          <li className="px-7  hover:text-[#facc22]">
             <Link to="/about">
               <span>About</span>
             </Link>
           </li>
-          <li className="px-7  hover:text-hover-effect">
+          <li className="px-7  hover:text-[#facc22]">
             <Link to="/contact">
               <span>Contact</span>
             </Link>
           </li>
-          <li className="px-7 hover:text-hover-effect">
+          <li className="px-7 hover:text-[#facc22]">
             <Link to="/shop">
               <span>Shop</span>
             </Link>
