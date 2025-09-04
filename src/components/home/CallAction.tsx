@@ -5,11 +5,11 @@ const CallAction = () => {
     <section className="text-white  bg-gradient-to-r from-[#facc22] to-[#f83600]  py-15 px-5 md:py-28">
       <div className="max-w-4xl mx-auto text-center px-4 sm:px-6 lg:px-8">
         <h2 className="text-4xl md:text-6xl font-bold mb-6">
-          Ready to Create Something Beautiful?
+          Bringing Your Vision to Life with Elegance
         </h2>
         <p className="text-xl md:text-2xl mb-8 opacity-90">
-          Let us help you create the perfect floral arrangement for your special
-          occasion.
+          From timeless bouquets to custom creations, we're here to craft
+          arrangements that make every moment unforgettable.
         </p>
         <div className="flex flex-col sm:flex-row gap-4 justify-center">
           <Link
