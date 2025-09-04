@@ -79,11 +79,11 @@ const About = () => {
       <section className="bg-gradient-to-r from-[#facc22] to-[#f83600]  text-white py-15 px-5 md:py-28">
         <div className="max-w-4xl mx-auto text-center px-4 sm:px-6 lg:px-8">
           <h2 className="text-3xl md:text-5xl font-bold mb-6">
-            Ready to Create Something Beautiful Together?
+            Your Vision, Our Craft
           </h2>
           <p className="text-xl md:text-2xl mb-8 opacity-90">
-            Whether you need a custom arrangement or have questions about our
-            services, we'd love to hear from you.
+            From unique designs to tailored services, we're here to bring your
+            ideas to life.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <a
