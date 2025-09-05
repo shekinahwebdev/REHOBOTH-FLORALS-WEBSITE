@@ -24,7 +24,7 @@ const Contact = () => {
           <ContactCard />
         </div>
       </section>
-      <section className="py-16 bg-[url(/assets/arrangements-in-vases-boxes/flower24.jpeg)] bg-no-repeat bg-cover bg-center mg:bg-size[100%] overflow-hidden relative">
+      <section className="py-16 bg-[url(/assets/arrangements-in-vases-boxes/flower24.jpeg)] bg-no-repeat bg-cover bg-center  mg:bg-size[100%] overflow-hidden relative">
         <div className="form-overlay"></div>
         <div className="md:max-w-[100rem] md:mx-auto px-4 sm:px-6 lg:px-8 drop-shadow-md">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12">

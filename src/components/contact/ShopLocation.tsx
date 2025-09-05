@@ -7,7 +7,7 @@ const ShopLocation = () => {
         Our Online Shop
       </h3>
 
-      <div className="bg-light-gray h-64 rounded-lg flex items-center justify-center">
+      <div className="bg-[url(assets/map.png)] bg-no-repeat h-64 rounded-lg flex items-center justify-center">
         <div className="text-center text-warm-gray">
           <MapPin className="h-12 w-12 mx-auto mb-4" />
           <p className="md:text-xl">Based in</p>
