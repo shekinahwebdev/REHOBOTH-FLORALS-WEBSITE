@@ -50,9 +50,11 @@ body {
   height: 65vh;
 }
 
-.middle-hero-overlay,
-.form-overlay {
+.middle-hero-overlay {
   height: 170vh;
+}
+.form-overlay {
+  height: 250vh;
 }
 
 .card-hover {
