@@ -27,7 +27,9 @@ body {
 .top-hero-overlay,
 .middle-hero-overlay,
 .form-overlay,
-.contact-overlay {
+.contact-overlay,
+.shop-overlay,
+.middle-shop-overlay {
   position: absolute;
   top: 0;
   left: 0;
@@ -36,7 +38,8 @@ body {
 }
 
 .hero-overlay,
-.contact-overlay {
+.contact-overlay,
+.shop-overlay {
   height: 100vh;
 }
 .product-hero-overlay {
@@ -46,6 +49,7 @@ body {
 .top-hero-overlay {
   height: 65vh;
 }
+
 .middle-hero-overlay,
 .form-overlay {
   height: 170vh;
